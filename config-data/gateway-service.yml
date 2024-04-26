@@ -12,4 +12,8 @@ spring:
       discovery:
         locator:
           enabled: true
-      
+      routes:
+        - id: cse-service
+          uri: lb://cse-service
+          predicates:
+            - Path=/api/v1**
