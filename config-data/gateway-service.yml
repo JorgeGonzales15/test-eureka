@@ -13,7 +13,7 @@ spring:
         locator:
           enabled: true
       routes:
-        - id: cse-service
-          uri: lb://cse-service
+        - id: business-service
+          uri: lb://business-service
           predicates:
             - Path=/api/v1**
