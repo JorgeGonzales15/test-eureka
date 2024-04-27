@@ -9,6 +9,10 @@ eureka:
     hostname: localhost
     
 spring:
+  datasource:
+    url: jdbc:mysql://root:CkoLykFANsdUJHukhfhoOexQCvkMJkMi@roundhouse.proxy.rlwy.net:54140/railway
+    username: root
+    password: CkoLykFANsdUJHukhfhoOexQCvkMJkMi
   cloud:
     gateway:
       discovery:
@@ -18,8 +22,8 @@ spring:
         - id: business-service
           uri: lb://business-service
           predicates:
-            - Path=/api/v1**
+            - Path=/api/v1/**
         - id: users-service
           uri: lb://users-service
           predicates:
-            - Path=/api/v1**
+            - Path=/api/v1/**
