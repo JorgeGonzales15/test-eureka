@@ -17,11 +17,11 @@ spring:
   # ===============================
   datasource:
   #  url: jdbc:h2:mem:productDB;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
-    url: jdbc:mysql://root:CkoLykFANsdUJHukhfhoOexQCvkMJkMi@roundhouse.proxy.rlwy.net:54140/railway
+    url: jdbc:mysql://root:GXpMmZVUOlkQFEUVPAxzomXFPPpqqRXI@monorail.proxy.rlwy.net:44972/railway
   #  driverClassName: org.h2.Driver
   #  platform: h2
     username: root
-    password: CkoLykFANsdUJHukhfhoOexQCvkMJkMi
+    password: GXpMmZVUOlkQFEUVPAxzomXFPPpqqRXI
 
   # ===============================
   # JPA / HIBERNATE
